@@ -131,6 +131,7 @@ Official and community implementations of the x402 protocol.
 
 
 ## 🏭 Production Implementations
+- [Horizon Pulse](https://horizonpulse.dev) — Pay-per-call crypto market APIs for AI agents (x402 v2, Base USDC). Six live routes: pulse ($0.005), signals ($0.015), yield ($0.02), portfolio ($0.04), gas ($0.01), funding ($0.01). CDP facilitator; payTo `0x5b32c973596078a967562ca652761404f19be0e9`. ([llms.txt](https://horizonpulse.dev/llms.txt) | [OpenAPI](https://horizonpulse.dev/openapi.json) | [status](https://horizonpulse.dev/status))
 
 Real companies using x402 in production with proven scale and transaction volumes.
 - [AfaAgent x402 API Suite](https://afaagent-x402-api.storm-fly.workers.dev) - 43 production-grade x402 APIs (DeFi, wallet security, AI/ML, developer tools, SEO) with pay-per-call USDC micropayments on Base. Includes MCP server with 43 tools (Streamable HTTP), OpenAPI 3.0 spec, llms.txt, and agents.json for AI-agent discovery. Premium services up to .99/call. ([Discovery](https://afaagent-x402-api.storm-fly.workers.dev/.well-known/x402) | [MCP](https://afaagent-x402-api.storm-fly.workers.dev/mcp) | [GitHub](https://github.com/AfaAgent/x402-api-suite))
